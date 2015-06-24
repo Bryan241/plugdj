@@ -238,7 +238,7 @@
             "[data-cid|='3560664'] .icon-chat-manager": {
                 "background-image": "url('https://i.imgur.com/DO20H9J.png') !important"
             },
-            "a[href=':test:']": {
+            "a[href='http://animedj.com/entry/13851/']": {
                 "display": "inline-block",
                 "width": "170px",
                 "height": "139px",
