@@ -1,0 +1,343 @@
+{
+    "colors": {
+        "background": "#000000",
+        "footer": "",
+        "chat": {
+            "admin": "#42A5DC",
+            "ambassador": "#89be6c",
+            "cohost": "#ac76ff",
+            "residentdj": "#ac76ff",
+            "host": "#ac76ff",
+            "manager": "#ac76ff",
+            "bouncer": "#ac76ff",
+            "message": "#B0B0B0"
+        }
+    },
+    "css": {
+        "font": [],
+        "import": [],
+        "rule": {
+            ".icon-site-logo": {
+            "background": "url('https://i.imgur.com/oajiYl5.png') repeat scroll 0% 0% transparent",
+            "background-position": "-5px 0px"   
+            },
+            "#room .app-right": {
+                "opacity": "0.86 !important"
+            },            
+            "#room .app-header": {
+                "opacity": "0.86 !important",
+				"background-color": "rgba(28, 31, 37, 0.86)"
+            },
+            "#room .header-panel-bar": {
+                "background": "0.75"
+            },
+            "#room .history-button": {
+                "background-color": "0.75"
+            },
+            "#room .plug-menu": {
+                "background-color": "rgba(40, 44, 53, 0.94) !important"
+            },
+            "#room .plug-menu .legal": {
+                "background-color": "rgba(68, 74, 89, 0.46) !important"
+            },
+            "#room .settings": {
+                "background-color": "rgba(10, 10, 10, 0.89) !important"
+            },
+            "#room .settings .header": {
+                "background-color": "rgba(28, 31, 37, 0.78) !important"
+            },
+            "#chat": {
+                "background-color": "rgba(10, 10, 10, 0.75)"
+            },
+            "#dj-button": {
+                "background-color": "rgba(40, 44, 53, 0.75) !important"
+            },
+            "#chat .message:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1)": {
+                "background-color": "rgba(17, 19, 23, 0.32)"
+            },
+            "#chat .mention": {
+                "background-color": "rgba(53, 75, 124, 0.22) !important",
+                "font-weight": "700",
+                "padding-left": "1px",
+                "border-left": "#ac76ff 3px solid"
+            },
+            "#chat .update .text": {
+                 "color": "#00FF4A"
+            },
+            "#chat-messages": {
+            },
+            "#chat-input-field": {
+            },
+            "#chat-messages .msg img": {
+            "display": "inherit !important",
+            "clear": "both"
+            },
+            "#chat-messages .msg video": {
+            "display": "inherit !important"
+            },            
+            "#chat-messages .timestamp": {
+            "display": "inline-block !important",
+            "margin": "0px 5px 0px 5px",
+            "right": "0px"
+            },
+            "#chat-messages .clickable": {
+            "margin-bottom": "0px"
+            },
+            "#chat .from": {
+            "float": "left",    
+            "display": "inline-block",
+            "z-index": "2",
+            "margin-bottom": "0px"
+            },
+            "#chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome": {
+            "min-height": "initial"
+            },
+            "#chat .msg": {
+                 "padding": "5px 8px 6px 15px"
+            },
+            "#chat-messages .text": {
+                 "padding-left": "5px",
+                 "z-index": "1"
+            },
+            "#chat-messages .userspace-chatalert .text a": {
+                 "padding-left": "0px",
+                 "z-index": "3"
+            },
+            "#chat-messages .from .icon": {
+            "width": "14px",
+            "height": "14px",
+            "top": "0px"
+            },
+			"#chat .fromID-placeholder .un": {
+			"margin-top": "-3px",
+			"float": "left"
+			},
+            "#chat-messages .cm.promo": {
+            "display": "none !important"
+            },            
+            "#chat .badge-box": {
+            "color": "#1C1F25",
+            "width": "0px",
+            "height": "0px",
+            "border-radius": "0px"
+            },
+            "#chat-messages .userspace-chatalert .badge-box": {
+            "position": "absolute !important",
+            "width": "30px !important",
+            "height": "30px !important"
+            },
+            "#chat-messages .userspace-chatalert": {
+            "float": "none !important",
+            "display": "block !important"
+            }, 
+            "#chat-messages .userspace-chatalert span.timestamp": {
+            "display": "inline !important",
+            "position": "absolute !important"
+            },
+            "#chat-messages .userspace-chatalert .msg": {
+            "padding-left": "40px"
+            },
+            "#chat-messages .userspace-chatalert .from": {
+            "float": "none !important",
+            "display": "block !important",
+            "padding-left": "5px !important"
+            },
+            "#chat-messages .userspace-chatalert.senpai .icon": {
+            "background-position": "0 0 !important",
+            "background": "url(https://i.imgur.com/fWkM6c9.png) !important",
+            "padding-left": "10px"
+            },
+            "#chat .icon .icon-p3": {
+                 "background-image": "url('') !important"
+            },
+            "#chat .bdg": {
+                 "background-image": "url('') !important"
+            },
+            "#chat .delete-button": {
+            "padding": "4px"
+            },
+            "#footer": {
+                "background-color": "rgba(0, 0, 0, 0.5) !important"
+            },
+            "#footer-user .info": {
+                 "background-color": "rgba(0, 0, 0, 0.8) !important"
+            },
+            "#your-next-media .eta.dark-label": {
+                 "color": "rgba(230, 219, 219, 1) !important"
+            },
+            ".social-menu .icon-twitter,.social-menu .icon-facebook": {
+                "opacity": "9"
+            },
+            ".social-menu .icon-twitter": {
+                "background-image": "url('https://i.imgur.com/Mw0Psat.png') !important",
+                "background-position": "1px 0px"
+            },
+            ".icon.icon-facebook": {
+                "background-image": "url('https://i.imgur.com/VfuvHLu.png') !important",
+                "background-position": "1px 0px"
+            },
+            "#user-meta": {
+                "color": "#FFF"
+            },
+            "#user-meta .label": {
+                "color": "#FFF"
+            },
+            "#user-meta .avatar-thumb": {
+                "background-color": "rgba(255, 255, 255, 0.1)"
+            },
+            "#user-panel .score": {
+                "background": "rgba(28, 31, 37, 0.59)"
+            },
+            "#dj-button.is-locked .left,#dj-button.is-full .left,#vote .crowd-response.disabled .bottom": {
+                "background": "rgba(68, 74, 89, 0.75)"
+            },
+            "#dj-button.is-quit .left,#dj-button.is-leave .left,#playlist-delete-button:hover": {
+                "background": "linear-gradient(to bottom,rgba(244, 107, 64, 0.74) 0,rgba(240, 79, 48, 0.75) 100%)"
+            },
+            "#chat .emote, #chat .mention, #chat .message": {
+                "-moz-animation": "fadein 0.33s",
+                "-ms-animation": "fadein 0.33s",
+                "-o-animation": "fadein 0.33s",
+                "-webkit-animation": "fadein 0.33s",
+                "animation": "fadein 0.33s",
+                "background-color": "#0E0E0F;"
+            },
+            "#chat .message:hover, #chat .emote:hover, #chat .update:hover": {
+                "-moz-transition": "100ms linear 50ms",
+                "-o-transition": "100ms linear 50ms",
+                "-webkit-transition": "100ms linear 50ms",
+                "border-left": "#FFFFFF 3px solid",
+                "padding-left": "3px",
+                "text-decoration": "none",
+                "transition": "100ms linear 50ms"
+            },
+            "#chat .moderation:hover": {
+                "-moz-transition": "100ms linear 50ms",
+                "-o-transition": "100ms linear 50ms",
+                "-webkit-transition": "100ms linear 50ms",
+                "border-left": "#ac76ff 3px solid",
+                "padding-left": "3px",
+                "text-decoration": "none",
+                "transition": "100ms linear 50ms"
+            },                       
+            "#chat [data-cid|='3560664'].emote": {
+                "border-left": "#FF9900 3px solid !important",
+                "background-color": "rgba(53, 75, 124, 0.22) !important"
+            },
+            "#chat [data-cid|='3560664'].emote": {
+                "display": "none"
+            },
+            "#chat [data-cid|='3560664'].emote": {
+                "color": "#FF9900 !important"
+            },
+            "#chat [data-cid|='3560664'].emote .text": {
+                "font-style": "normal",
+                "font-weight": "bold",
+                "color": "#FFFFFF !important"
+            },
+            "[data-cid|='3560664'] .icon-chat-manager": {
+                "background-image": "url('https://i.imgur.com/DO20H9J.png') !important"
+            },
+            "a[href='http://animedj.com/entry/13851/']": {
+                "display": "inline-block",
+                "width": "170px",
+                "height": "139px",
+                "background": "url('https://i.imgur.com/BrnILH4.gif') no-repeat",
+                "text-indent": "-10000000px"
+            },
+            "a[href='http://animedj.com/entry/16783/']": {
+                "display": "inline-block",
+                "width": "170px",
+                "height": "96px",
+                "background": "url('https://i.imgur.com/bnUTJtI.gif') no-repeat",
+                "text-indent": "-10000000px"
+            },
+            "a[href='http://animedj.com/entry/22302/']": {
+                "display": "inline-block",
+                "width": "170px",
+                "height": "96px",
+                "background": "url('https://i.imgur.com/tB2IhYH.gif') no-repeat",
+                "text-indent": "-10000000px"
+            },
+            "a[href='http://animedj.com/entry/22555/']": {
+                "display": "inline-block",
+                "width": "240px",
+                "height": "111px",
+                "background": "url('https://i.imgur.com/macVeoA.gif') no-repeat",
+                "text-indent": "-10000000px"
+            },
+            "a[href='http://animedj.com/entry/16756/']": {
+                "display": "inline-block",
+                "width": "169px",
+                "height": "115px",
+                "background": "url('https://i.imgur.com/HWBuisS.gif') no-repeat",
+                "text-indent": "-10000px"
+            },
+            "a[href='http://animedj.com/entry/32/']": {
+                "display": "inline-block",
+                "width": "169px",
+                "height": "123px",
+                "background": "url('https://i.imgur.com/kJr67mh.gif') no-repeat",
+                "text-indent": "-1000px"
+            },
+            "a[href='http://nyanpass.com'], a[href='http://nyanpass.com/'], a[href='http://www.nyanpass.com'], a[href='www.nyanpass.com/'], a[href='http://www.nyanpass.com/'], a[href='www.nyanpass.com']": {
+                "display": "inline-block",
+                "width": "161px",
+                "height": "119px",
+                "background": "url('https://i.imgur.com/JySnHN1.gif') no-repeat",
+                "text-indent": "-1000px"
+            },
+            "@-moz-keyframes fadein": {
+                "from {opacity": "0;}",
+                "to {opacity": "1;}"
+            },
+            "@-ms-keyframes fadein": {
+                "from {opacity": "0;}",
+                "to {opacity": "1;}"
+            },
+            "@-o-keyframes fadein": {
+                "from {opacity": "0;}",
+                "to {opacity": "1;}"
+            },
+            "@-webkit-keyframes fadein": {
+                "from {opacity": "0;}",
+                "to {opacity": "1;}"
+            },
+            "@keyframes fadein": {
+                "from {opacity": "0;}",
+                "to {opacity": "1;}"
+            },            
+            "body": {
+                "background-size": "100% auto !important",
+                "background-attachment": "fixed 0px 0px !important"
+            },
+			"#dj-booth":{
+			"background": "url('https://i.imgur.com/vBVHAE9.png') no-repeat 0px 135px",
+			"left": "265px"
+            },
+			"#dj-canvas":{
+			"margin-left": "-30px"
+			},
+            "#app":{
+                 "background-image":"url(http://i.imgur.com/PX47uCP.jpg)",
+                 "background-size":"cover !important"
+            }   
+        }
+    },
+    "images": {
+        "background": "",
+        "booth": "",
+        "playback": "http://i.imgur.com/uUtbxU1.png",
+        "icons": {
+            "bouncer": "https://i.imgur.com/NIYvUDv.png",
+            "cohost": "https://i.imgur.com/NIYvUDv.png",
+            "host": "https://i.imgur.com/NIYvUDv.png",
+            "manager": "https://i.imgur.com/NIYvUDv.png"
+        }
+    },
+    "rules": {
+        "allowAutorespond": "true",
+        "allowAutowoot": "true",
+        "allowAutojoin": "false"
+    }
+}
