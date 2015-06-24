@@ -319,13 +319,13 @@
 			"margin-left": "-30px"
 			},
             "#app":{
-                 "background-image":"url(http://i.imgur.com/PX47uCP.jpg)",
+                 "background-image":"url( null )",
                  "background-size":"cover !important"
             }   
         }
     },
     "images": {
-        "background": "",
+        "background": "http://i.imgur.com/PX47uCP.jpg",
         "booth": "",
         "playback": "http://i.imgur.com/uUtbxU1.png",
         "icons": {
